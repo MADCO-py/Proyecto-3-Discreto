@@ -1,0 +1,36 @@
+GUION DE APOYO PARA LA PRESENTACION EN CLASE
+Matemática Discreta, sección 30
+
+Antes de presentar
+- Tener Python 3.10 o posterior instalado.
+- Guardar proyecto.py en el equipo y abrir una terminal en su carpeta.
+- Probar: python3 proyecto.py
+- Para el menú: python3 proyecto.py --interactivo
+- Tener abiertos documentacion/informe.pdf y los archivos que se subirán a Canvas.
+
+Distribución sugerida del grupo
+1. Ivan Morataya: explicar el problema y la diferencia entre ordenar y elegir.
+   Mostrar la opción 1 con a b c d: total 24.
+2. David Díaz: explicar los objetos iguales.
+   Mostrar la opción 2 con a a b c: total 12.
+3. David Ibaté: explicar que el orden no importa al elegir.
+   Mostrar la opción 3 con a b c d, elegir 2: total 6.
+4. Miguel Carranza: mostrar la opción 4 con a a b c, elegir 2: total 4.
+   Explicar por qué aa es válida y bb y cc no lo son.
+5. José Ceferino: mostrar una entrada inválida y su corrección.
+   Elegir la opción 4, introducir a a b c y seleccionar 5: aparece un error.
+   Repetir con tamaño 2: vuelve a dar 4 resultados.
+   Cerrar con las conclusiones y mencionar las referencias de Rosen y Python.
+
+Preguntas para practicar
+- ¿Por qué ab y ba son distintos al ordenar, pero iguales al elegir?
+- ¿Por qué a a b c tiene 12 órdenes y a b c d tiene 24?
+- ¿Se pueden elegir dos b si solo hay una? No.
+- ¿Qué significa Total? La cantidad completa de posibilidades.
+- ¿Qué ocurre con más de 50 resultados? Se muestra el total exacto y se limita la lista.
+- ¿Cómo salir? Escribir 0 en el menú.
+
+Entrega
+Adjuntar proyecto.py, informe.tex e informe.pdf directamente en Canvas.
+No sustituir los adjuntos por un enlace al repositorio.
+La presentación se realiza en clase en el período indicado por el docente.

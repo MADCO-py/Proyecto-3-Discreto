@@ -1,0 +1,15 @@
+test_cuatro_opciones_del_menu (test_consola.PruebasConsola.test_cuatro_opciones_del_menu) ... ok
+test_ejemplos_completos (test_consola.PruebasConsola.test_ejemplos_completos) ... ok
+test_errores_en_consultas_directas (test_consola.PruebasConsola.test_errores_en_consultas_directas) ... ok
+test_recuperacion_tras_error (test_consola.PruebasConsola.test_recuperacion_tras_error) ... ok
+test_cuatro_ejemplos (test_proyecto.PruebasCombinatoria.test_cuatro_ejemplos) ... ok
+test_diferentes_y_bordes (test_proyecto.PruebasCombinatoria.test_diferentes_y_bordes) ... ok
+test_entradas_invalidas (test_proyecto.PruebasCombinatoria.test_entradas_invalidas) ... ok
+test_etiquetas_completas_y_orden (test_proyecto.PruebasCombinatoria.test_etiquetas_completas_y_orden) ... ok
+test_limite_no_modifica_el_total (test_proyecto.PruebasCombinatoria.test_limite_no_modifica_el_total) ... ok
+test_multiconjuntos_con_oraculo_por_posiciones (test_proyecto.PruebasCombinatoria.test_multiconjuntos_con_oraculo_por_posiciones) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.759s
+
+OK

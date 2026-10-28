@@ -1,0 +1,40 @@
+C1: caso=pd, objetos=['a', 'b', 'c', 'd'], r=None; esperado=24; obtenido=24; CORRECTO
+Resultados: [('a', 'b', 'c', 'd'), ('a', 'b', 'd', 'c'), ('a', 'c', 'b', 'd'), ('a', 'c', 'd', 'b'), ('a', 'd', 'b', 'c'), ('a', 'd', 'c', 'b'), ('b', 'a', 'c', 'd'), ('b', 'a', 'd', 'c'), ('b', 'c', 'a', 'd'), ('b', 'c', 'd', 'a'), ('b', 'd', 'a', 'c'), ('b', 'd', 'c', 'a'), ('c', 'a', 'b', 'd'), ('c', 'a', 'd', 'b'), ('c', 'b', 'a', 'd'), ('c', 'b', 'd', 'a'), ('c', 'd', 'a', 'b'), ('c', 'd', 'b', 'a'), ('d', 'a', 'b', 'c'), ('d', 'a', 'c', 'b'), ('d', 'b', 'a', 'c'), ('d', 'b', 'c', 'a'), ('d', 'c', 'a', 'b'), ('d', 'c', 'b', 'a')]
+
+C2: caso=pi, objetos=['a', 'a', 'b', 'c'], r=None; esperado=12; obtenido=12; CORRECTO
+Resultados: [('a', 'a', 'b', 'c'), ('a', 'a', 'c', 'b'), ('a', 'b', 'a', 'c'), ('a', 'b', 'c', 'a'), ('a', 'c', 'a', 'b'), ('a', 'c', 'b', 'a'), ('b', 'a', 'a', 'c'), ('b', 'a', 'c', 'a'), ('b', 'c', 'a', 'a'), ('c', 'a', 'a', 'b'), ('c', 'a', 'b', 'a'), ('c', 'b', 'a', 'a')]
+
+C3: caso=cd, objetos=['a', 'b', 'c', 'd'], r=2; esperado=6; obtenido=6; CORRECTO
+Resultados: [('a', 'b'), ('a', 'c'), ('a', 'd'), ('b', 'c'), ('b', 'd'), ('c', 'd')]
+
+C4: caso=ci, objetos=['a', 'a', 'b', 'c'], r=2; esperado=4; obtenido=4; CORRECTO
+Resultados: [('a', 'a'), ('a', 'b'), ('a', 'c'), ('b', 'c')]
+
+C5: caso=pi, objetos=['a', 'a', 'a'], r=None; esperado=1; obtenido=1; CORRECTO
+Resultados: [('a', 'a', 'a')]
+
+C6: caso=ci, objetos=['a', 'a', 'b'], r=2; esperado=2; obtenido=2; CORRECTO
+Resultados: [('a', 'a'), ('a', 'b')]
+
+C7: caso=cd, objetos=['a', 'b'], r=0; esperado=1; obtenido=1; CORRECTO
+Resultados: [()]
+
+C8: caso=ci, objetos=[], r=0; esperado=1; obtenido=1; CORRECTO
+Resultados: [()]
+
+C13: caso=pi, objetos=['rojo', 'azul', 'rojo'], r=None; esperado=3; obtenido=3; CORRECTO
+Resultados: [('azul', 'rojo', 'rojo'), ('rojo', 'azul', 'rojo'), ('rojo', 'rojo', 'azul')]
+
+C9: caso=cd, objetos=['a', 'a', 'b'], r=2; esperado=error; obtenido=En este caso todos los objetos deben ser diferentes.; CORRECTO
+
+C10: caso=ci, objetos=['a', 'a', 'b'], r=4; esperado=error; obtenido=r debe ser un entero entre 0 y 3.; CORRECTO
+
+C11: caso=ci, objetos=['a', 'a', 'b'], r=-1; esperado=error; obtenido=r debe ser un entero entre 0 y 3.; CORRECTO
+
+C12: pd, a b c d, limite=2; esperado=total 24 y dos resultados visibles; obtenido=total 24 y dos resultados visibles; CORRECTO
+Permutaciones de objetos diferentes
+Objetos: a, b, c, d
+Total: 24
+  1. (a, b, c, d)
+  2. (a, b, d, c)
+Se muestran 2 de 24 resultados. El total es exacto.

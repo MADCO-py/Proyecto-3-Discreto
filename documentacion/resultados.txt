@@ -1,0 +1,68 @@
+
+=== Ejemplo 1 ===
+Permutaciones de objetos diferentes
+Objetos: a, b, c, d
+Total: 24
+  1. (a, b, c, d)
+  2. (a, b, d, c)
+  3. (a, c, b, d)
+  4. (a, c, d, b)
+  5. (a, d, b, c)
+  6. (a, d, c, b)
+  7. (b, a, c, d)
+  8. (b, a, d, c)
+  9. (b, c, a, d)
+ 10. (b, c, d, a)
+ 11. (b, d, a, c)
+ 12. (b, d, c, a)
+ 13. (c, a, b, d)
+ 14. (c, a, d, b)
+ 15. (c, b, a, d)
+ 16. (c, b, d, a)
+ 17. (c, d, a, b)
+ 18. (c, d, b, a)
+ 19. (d, a, b, c)
+ 20. (d, a, c, b)
+ 21. (d, b, a, c)
+ 22. (d, b, c, a)
+ 23. (d, c, a, b)
+ 24. (d, c, b, a)
+
+=== Ejemplo 2 ===
+Permutaciones de objetos iguales
+Objetos: a, a, b, c
+Total: 12
+  1. (a, a, b, c)
+  2. (a, a, c, b)
+  3. (a, b, a, c)
+  4. (a, b, c, a)
+  5. (a, c, a, b)
+  6. (a, c, b, a)
+  7. (b, a, a, c)
+  8. (b, a, c, a)
+  9. (b, c, a, a)
+ 10. (c, a, a, b)
+ 11. (c, a, b, a)
+ 12. (c, b, a, a)
+
+=== Ejemplo 3 ===
+Combinaciones de objetos diferentes
+Objetos: a, b, c, d
+Tamaño de selección: 2
+Total: 6
+  1. (a, b)
+  2. (a, c)
+  3. (a, d)
+  4. (b, c)
+  5. (b, d)
+  6. (c, d)
+
+=== Ejemplo 4 ===
+Combinaciones de objetos iguales
+Objetos: a, a, b, c
+Tamaño de selección: 2
+Total: 4
+  1. (a, a)
+  2. (a, b)
+  3. (a, c)
+  4. (b, c)
